@@ -2,7 +2,15 @@
 Official packages and software for AmadeOS
 
 
-Add the repo to your pacman.conf 
+## Installation
+
+### Bash
+
+```bash
+wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadoes/main/install.sh| bash
+```
+
+### Manual Additon 
 
 ```
 
