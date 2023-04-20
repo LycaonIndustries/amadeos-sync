@@ -33,6 +33,7 @@ echo "Backing up pacman.conf file..."
 cp /etc/pacman.conf /etc/pacman.conf.bkp
 
 # Add the repository to pacman.conf
+if ! grep -q "amadeos" /etc/pacman.conf; then
 echo "[amadeos]
 SigLevel = Optional DatabaseOptional
 Server = https://github.com/LycaonIndustries/\$repo/raw/main/\$arch/" >> /etc/pacman.conf
