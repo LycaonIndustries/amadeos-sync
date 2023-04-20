@@ -7,7 +7,7 @@ Official packages and software for AmadeOS
 ### Bash
 
 ```bash
-wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadoes/main/install.sh| bash
+wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadeos/main/install.sh | bash
 ```
 
 ### Manual Additon 
