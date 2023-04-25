@@ -1,4 +1,4 @@
-# amadeos
+# amadeos-sync
 Official packages and software for AmadeOS
 
 
@@ -7,14 +7,14 @@ Official packages and software for AmadeOS
 ### Bash
 
 ```bash
-wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadeos/main/install.sh | bash
+wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadeos-sync/main/install.sh | bash
 ```
 
 ### Manual Additon 
 
 ```
 
-[amadeos]
+[amadeos-sync]
 SigLevel = Optional DatabaseOptional
 Server = https://github.com/LycaonIndustries/$repo/raw/main/$arch/
 

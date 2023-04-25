@@ -6,7 +6,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Set the URL for the keyring file
-keyring_url="https://github.com/LycaonIndustries/amadeos/raw/main/pubring.gpg"
+keyring_url="https://github.com/LycaonIndustries/amadeos-sync/raw/main/pubring.gpg"
 
 # Set the directory to download the keyring file to
 download_dir="/tmp"
@@ -33,8 +33,8 @@ echo "Backing up pacman.conf file..."
 cp /etc/pacman.conf /etc/pacman.conf.bkp
 
 # Add the repository to pacman.conf
-if ! grep -q "amadeos" /etc/pacman.conf; then
-    echo "[amadeos]
+if ! grep -q "amadeos-sync" /etc/pacman.conf; then
+    echo "[amadeos-sync]
     SigLevel = Optional DatabaseOptional
     Server = https://github.com/LycaonIndustries/\$repo/raw/main/\$arch/" >> /etc/pacman.conf
 fi
