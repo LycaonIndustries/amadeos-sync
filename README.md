@@ -7,7 +7,7 @@ Official packages and software for AmadeOS
 ### Bash
 
 ```bash
-wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadeos-sync/main/install.sh | bash
+wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadeos-sync/main/install.sh | sudo bash
 ```
 
 ### Manual Additon 
