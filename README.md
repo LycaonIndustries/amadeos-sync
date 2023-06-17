@@ -9,13 +9,3 @@ Official packages and software for AmadeOS
 ```bash
 wget -O - https://raw.githubusercontent.com/LycaonIndustries/amadeos-sync/main/install.sh | sudo bash
 ```
-
-### Manual Additon 
-
-```
-
-[amadeos-sync]
-SigLevel = Optional DatabaseOptional
-Server = https://github.com/LycaonIndustries/$repo/raw/main/$arch/
-
-```
